@@ -1,16 +1,4 @@
-// function gerin(str){
-//   var temp ='';
-//   if(str.length === 0){
-//     return temp
-//   }
-//   else{
-//     temp += str[str.length -1]
-//     var newStr = str.slice(0,str.length-1)
-//     return temp + gerin(newStr)
-//   }
-// }
 
-// gerin('mobil')
 
 
 function totalDigitRekursif(angka) {
