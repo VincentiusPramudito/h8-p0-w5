@@ -12,6 +12,16 @@ function changeVocals (str) {
       temp += 'f'
     } else if (str[i]==='o'){
       temp += 'p'
+    } else if (str[i] ==='A'){
+      temp += 'B'
+    } else if (str[i]==='I'){
+      temp += 'J'
+    } else if (str[i]==='U'){
+      temp += 'V'
+    } else if (str[i]==='E'){
+      temp += 'F'
+    } else if (str[i]==='O'){
+      temp += 'P'
     } else {
       temp += str[i]
     }
